@@ -1,4 +1,4 @@
-# Escriba su código acá
+# Obviedades
 nombre = input("Nombre: ")
 nombre_2 = nombre.split(" ")
 nombre_3 = nombre_2[0]
