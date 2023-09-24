@@ -1,0 +1,7 @@
+# Ley de Coulomb
+carga_1 = float(input())
+carga_2 = float(input())
+distancia = float(input())
+carga = (((8.987 * 10 ** 9) * (carga_1 * carga_2)) / distancia ** 2)
+carga_resultante = round(carga, 2)
+print(carga_resultante)
