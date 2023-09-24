@@ -1,0 +1,20 @@
+# Costo de compras, IVA incluido
+producto_1 = input()
+precio_1 = float(input())
+cantidad_1 = float(input())
+precio_1v2 = precio_1 * cantidad_1
+
+producto_2 = input()
+precio_2 = float(input())
+cantidad_2 = float(input())
+precio_2v3 = precio_2 * cantidad_2
+
+print("El total para " + producto_1 + " es " + str(precio_1v2) + ".")
+print("El total para " + producto_2 + " es " + str(precio_2v3) + ".")
+precio_final = precio_1v2 + precio_2v3
+precio_finalv2 = round(precio_final, 2)
+
+# Impuestos
+cant_testeo = round(precio_final - (precio_final / 1.19), 2)
+
+print("El valor total de la compra es " + str(precio_finalv2) + ", con " + str(cant_testeo) + " en impuestos.")
