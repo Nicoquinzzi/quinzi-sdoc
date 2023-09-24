@@ -1,0 +1,4 @@
+# Área de un hexágono
+area = float(input())
+area_2 = round(((area ** 2) * 3 * (3 ** (1 / 2)) / 2), 2)
+print("El área es " + str(area_2))
