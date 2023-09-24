@@ -1,0 +1,15 @@
+# Promedio semestral
+nombre = input("Nombre: ")
+tarea_1 = input("Tarea 1: ")
+tarea_2 = input("Tarea 2: ")
+tarea_3 = input("Tarea 3: ")
+controles_notas = input("Controles: ")
+guias_notas = input("Guías: ")
+tarea_1v2 = float(tarea_1)
+tarea_2v2 = float(tarea_2)
+tarea_3v2 = float(tarea_3)
+controles_notasv2 = float(controles_notas)
+guias_notasv2 = float(guias_notas)
+promedio = tarea_1v2 * 0.1 + tarea_2v2 * 0.2 + tarea_3v2 * 0.3 + controles_notasv2 * 0.15 + guias_notasv2 * 0.25
+promedio_2 = round(promedio, 1)
+print(str(nombre) + "," + " tu promedio es " + str(promedio_2))
