@@ -1,0 +1,7 @@
+# Escriba su código acá
+nombre = input("Nombre: ")
+nombre_2 = nombre.split(" ")
+nombre_3 = nombre_2[0]
+año = input("Año de nacimiento: ")
+año_2 = str(2023 - int(año))
+print("Hola, " + nombre_3 + ". Tienes " + año_2 + " años.")
